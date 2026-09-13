@@ -18,7 +18,5 @@ def multiply(left: float, right: float) -> float:
 
 def divide(left: float, right: float) -> float:
     """Return the quotient of two numbers.
-
-    This feature is deliberately left unfinished for the coding exercise.
     """
-    raise NotImplementedError("division has not been implemented yet")
+    return left / right
