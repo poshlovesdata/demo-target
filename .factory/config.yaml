@@ -1,0 +1,16 @@
+repository_name: demo-target
+base_branch: main
+lane: standard
+brain_required: false
+human_approval_required: true
+max_repair_depth: 1
+gates:
+- id: test
+  type: command
+  command: python -m pytest
+  required: true
+guardrails:
+- Do not disable required gates.
+forbidden_tools:
+- force_push
+- autonomous_merge
