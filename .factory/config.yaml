@@ -1,7 +1,7 @@
 repository_name: demo-target
 base_branch: main
 lane: standard
-brain_required: false
+brain_required: true
 human_approval_required: true
 max_repair_depth: 1
 gates:
