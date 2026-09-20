@@ -19,6 +19,10 @@ def test_remainder():
     assert remainder(7, 3) == 1
 
 
+def test_remainder_with_negative_left_operand():
+    assert remainder(-7, 3) == 2
+
+
 def test_divide():
     assert divide(8, 2) == 4
 
