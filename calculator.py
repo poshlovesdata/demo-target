@@ -16,9 +16,11 @@ def multiply(left: float, right: float) -> float:
     return left * right
 
 
-def divide(left: float, right: float) -> float:
-    """Return the quotient of two numbers.
+def remainder(left: float, right: float) -> float:
+    """Return the remainder after division."""
+    return left % right
 
-    This feature is deliberately left unfinished for the coding exercise.
-    """
-    raise NotImplementedError("division has not been implemented yet")
+
+def divide(left: float, right: float) -> float:
+    """Return the quotient of two numbers."""
+    return left / right
