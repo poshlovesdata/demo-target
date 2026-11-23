@@ -14,3 +14,4 @@ guardrails:
 forbidden_tools:
 - force_push
 - autonomous_merge
+trusted_reviewer_identity: poshlovesdata
